@@ -42,6 +42,7 @@ const DrawPane = props => {
             break;
         default:
       }
+      // eslint-disable-next-line
       switch (mode1) {
         case MODE.PENCIL:
             setCurrentLine({
@@ -67,7 +68,7 @@ const DrawPane = props => {
   const onSetMode = mode => {
     setMode(mode);
   };
-
+  // eslint-disable-next-line
   const onSetMode1 = mode1 => {
     setMode1(mode1);
   };
